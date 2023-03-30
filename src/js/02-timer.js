@@ -57,7 +57,7 @@ const options = {
         daysRef.textContent === '0' &&
         hoursRef.textContent === '00' &&
         minutesRef.textContent === '00' &&
-        secondsRef.textContent === '00'
+        secondsRef.textContent === '00' 
       ) {
         clearInterval(timerId);
       }

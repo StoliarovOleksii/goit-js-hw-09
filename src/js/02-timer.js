@@ -48,7 +48,7 @@ const options = {
 
       const diff = selectData - now;
       const { days, hours, minutes, seconds } = convertMs(diff);
-      daysRef.textContent = days;
+      daysRef.textContent = addLeadingZero(days);
       hoursRef.textContent = addLeadingZero(hours);
       minutesRef.textContent = addLeadingZero(minutes);
       secondsRef.textContent = addLeadingZero(seconds);
